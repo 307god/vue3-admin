@@ -1,6 +1,4 @@
 import { createRouter, createWebHashHistory } from "vue-router";
-import f1 from "../components/f1.vue";
-import f2 from "../components/f2.vue";
 import HelloWorld from "../components/HelloWorld.vue";
 import Layout from "@/layout/index.vue";
 import Test1 from "@/views/test/Test1.vue";
