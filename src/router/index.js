@@ -27,13 +27,13 @@ export const routes = [
     children: [
       {
         path: "example1",
-        component: HelloWorld,
+        component: Test1,
         name: "Example1",
         meta: { title: "Example1" }
       },
       {
         path: "example2",
-        component: HelloWorld,
+        component: Test2,
         name: "Example2",
         meta: { title: "Example2" }
       }
