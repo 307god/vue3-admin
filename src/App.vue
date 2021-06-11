@@ -1,10 +1,10 @@
 <template>
   <p>
-    <router-link to="/example/example1">/users/eduardo</router-link>
+    <router-link to="/dashboard">/dashboard</router-link>
     <br />
-    <router-link to="/example/example2">/users/eduardo/profile</router-link>
+    <router-link to="/test/test1">/test/test1</router-link>
     <br />
-    <router-link to="/dashboard">/users/eduardo/posts</router-link>
+    <router-link to="/test/test2">/test/test2</router-link>
   </p>
   <router-view></router-view>
 </template>

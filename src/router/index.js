@@ -21,21 +21,21 @@ export const routes = [
     ]
   },
   {
-    path: "/example",
+    path: "/test",
     component: Layout,
-    redirect: "/example/example1",
+    redirect: "/test/test1",
     children: [
       {
-        path: "example1",
+        path: "test1",
         component: Test1,
-        name: "Example1",
-        meta: { title: "Example1" }
+        name: "Test1",
+        meta: { title: "Test1" }
       },
       {
-        path: "example2",
+        path: "test2",
         component: Test2,
-        name: "Example2",
-        meta: { title: "Example2" }
+        name: "Test2",
+        meta: { title: "Test2" }
       }
     ]
   }
